@@ -1,0 +1,38 @@
+{
+  "name": "http-proxy-middleware-for-koa2",
+  "version": "1.0.0",
+  "description": "用于koa2的http-proxy-middleware的中间件",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tnnevol",
+    "newblue",
+    "koa2",
+    "middleware",
+    "koa2-http-proxy-middleware",
+    "http-proxy-middleware",
+    "http-proxy-middleware-for-koa2"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnnevol/koa2-webpack-dev-middleware.git"
+  },
+  "dependencies": {
+    "koa2-connect": "^1.0.2",
+    "path-to-regexp": "^6.2.0",
+    "http-proxy-middleware": "^1.0.6"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  },
+  "author": "greecenew@foxmail.com",
+  "license": "MIT"
+}
